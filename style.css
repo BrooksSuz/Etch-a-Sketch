@@ -5,16 +5,13 @@
   border: 5px solid black; 
 }
 
+/* grid squares need styled so they are properly responsive to page size */
 .etch {
   height: 0; 
-  width: 4.5%; 
-  padding-bottom: 4.5%; 
+  width: 5.25%; 
+  padding-bottom: 5.25%; 
   margin: 5px; 
   color: white; 
   background-color: black; 
   border-radius: 5px;
 } 
-
-div > div:hover {
-  background-color: white; 
-}
