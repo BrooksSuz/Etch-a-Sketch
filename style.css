@@ -13,4 +13,8 @@
   color: white; 
   background-color: black; 
   border-radius: 5px;
+} 
+
+div > div:hover {
+  background-color: white; 
 }
