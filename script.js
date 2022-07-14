@@ -42,7 +42,7 @@ btn.addEventListener('click', () => {
       }
       container.appendChild(divs[i]); 
     } 
-    return alert('Value must be smaller than 100'); 
+    return alert('Maximum value is 100'); 
   }
 
   //create grid 
