@@ -2,10 +2,10 @@
 const container = document.getElementById('container'); 
 
 //create grid 
-for (let i = 0; i < 256; i++) { 
-  const div = document.createElement('div'); 
-  container.appendChild(div); 
-  div.classList.add('etch'); 
+for (let i = 0; i < 16; i++) { 
+  const block = document.createElement('div'); 
+  container.appendChild(block); 
+  block.classList.add('etch'); 
 } 
 
 //select each individual box 

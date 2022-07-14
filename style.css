@@ -20,14 +20,13 @@ body {
 #container { 
   margin: 0;
   display: flex;
-  flex-wrap: wrap;
   height: 97%;
   border: 1px solid black; 
 }
 
 /* grid squares need styled so they are properly responsive to page size */
 .etch {
-  height: 2.56%;
-  width: 2.56%;
+  margin: 0; 
+  flex: 1; 
   background-color: black; 
 } 
